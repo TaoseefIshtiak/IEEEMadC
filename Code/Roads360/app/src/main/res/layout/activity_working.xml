@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spider_man.roads360.Working">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+        android:id="@+id/upload"
+        android:text="Upload your location`s roads situation"
+        android:textSize="20dp"
+            android:textColor="#fff"
+            android:background="#5E8883"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/showImage"
+        android:layout_marginTop="20dp"
+        android:text="See other areas roads situation"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#5E8883"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:background="@drawable/roadslogo"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

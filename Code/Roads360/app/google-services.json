@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252517172317",
+    "firebase_url": "https://roads360-e5513.firebaseio.com",
+    "project_id": "roads360-e5513",
+    "storage_bucket": "roads360-e5513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252517172317:android:b68b5ec468cd0ada",
+        "android_client_info": {
+          "package_name": "com.example.spider_man.roads360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252517172317-s8834docj40icd5an9hs7t0039oluf66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spider_man.roads360",
+            "certificate_hash": "2e2398bada27d28c1fdcef21d7ea6a37b3c854ec"
+          }
+        },
+        {
+          "client_id": "252517172317-ier3rovoivlrp0g79cmj4mvhbmh7i6ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3dlmNY_VfXH2oqdy9aZnoSg3u7c9My3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252517172317-ier3rovoivlrp0g79cmj4mvhbmh7i6ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

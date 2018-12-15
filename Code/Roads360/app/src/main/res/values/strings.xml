@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Roads 360</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string-array name="Days">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+    </string-array>
+
+    <string-array name="Hours">
+        <item>8-10 am</item>
+        <item>10-12 am</item>
+        <item>12-2 pm</item>
+        <item>2-4 pm</item>
+        <item>4-6 pm</item>
+        <item>6-8 pm</item>
+        <item>8-10 pm</item>
+        <item>10-12 pm</item>
+        <item>12-2 am</item>
+        <item>2-4 am</item>
+        <item>4-6 am</item>
+        <item>6-8 am</item>
+
+    </string-array>
+</resources>

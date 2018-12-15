@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spider_man.roads360.Login">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roadslogo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/linlay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etPhn"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="   Phone Number"
+                android:background="@color/colorPrimary"/>
+
+            <Button
+                android:id="@+id/btnOTP"
+                android:layout_marginTop="20dp"
+                android:text="Generate OTP Code"
+                android:background="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="40dp" />
+            <EditText
+                android:id="@+id/etOTP"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="   OTP"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_below="@+id/linlay1"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:text="Sign In" />
+
+    </LinearLayout>
+
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="Create a new Account"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</RelativeLayout>
