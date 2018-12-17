@@ -32,5 +32,5 @@ SOFTWARE.
 Country: Bangladesh
 Author's Github Profile link: https://github.com/TaoseefIshtiak
 Code: https://drive.google.com/drive/folders/1RSKfv0JWDEfeNFWNhKxQuWg-8FSCPmhT?usp=sharing
-Promo Video link: 
+Promo Video link: https://drive.google.com/file/d/1y4tdSFpZzpCNC9Ck6qNZeKglb3oRHDFI/view?usp=drivesdk&fbclid=IwAR3aEyBuMbInfqIIAERHMp96BHZrHH6XJiTPrViUarNDjyhiVcGo7y0vXG8
 # IEEEMadC
